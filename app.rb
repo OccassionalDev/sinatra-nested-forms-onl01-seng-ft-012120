@@ -20,7 +20,7 @@ module FormsLab
         Ship.new(attributes)
       end
       
-      
+      @ships = Ship.all
     end 
   end
 end
